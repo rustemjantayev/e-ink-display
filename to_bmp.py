@@ -1,5 +1,6 @@
 from PIL import Image, ImageOps
 
+
 def convert_to_moderate_vibrant_image(input_image_path, output_image_path, target_size=(600, 448), vibrancy_factor=0.5):
     """
     Convert an image to use a strict 7-color palette with a mix of vibrant colors and gray, making the colors less intense.
